@@ -417,6 +417,7 @@ textarea.form-control {
 
 .card-footer {
   border: 0;
+  height: 65px;
 }
 
 /* /card */
@@ -913,9 +914,13 @@ blockquote {
 }
 
 .row .col-lg-3 {
-  flex: 0 0 20%; /* Réduire la largeur des colonnes contenant les cartes */
+  flex: 0 0 20%;
+  margin-top: 30px;/* Réduire la largeur des colonnes contenant les cartes */
 }
 
+.row .col-lg-3:last-child {
+  margin-top: 30px; /* Ajustez cette valeur selon vos besoins */
+}
 
 
 /*# sourceMappingURL=maps/style.css.map */
