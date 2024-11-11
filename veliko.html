@@ -25,6 +25,12 @@
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
   <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 
+  <!-- Lightbox CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+  <!-- Lightbox JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
+
+
 </head>
 
 <body>
@@ -84,10 +90,10 @@
 <!-- objectif -->
 <div class="white-box">
   <div class="content">
-    <img src="images/portfolio/logoVeliko.png" alt="Logo Veliko" class="logo-img">
+    <img src="images/veliko/logoVeliko.png" alt="Logo Veliko" class="logo-img">
     <div>
       <h3>Objectif</h3>
-      <p>L'objectif de Veliko est de fournir une application mobile et web permettant aux utilisateurs de
+      <p class="font-secondary">L'objectif de Veliko est de fournir une application mobile et web permettant aux utilisateurs de
         connaître en temps réel la disponibilité des vélos classiques et électriques dans les stations de
         Paris et de l’Île-de-France. Le projet vise à faciliter la mobilité urbaine en répondant aux attentes
         d’une clientèle variée, grâce à des fonctionnalités telles que la géolocalisation, le suivi des stations,
@@ -111,7 +117,7 @@
       </div>
       <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
         <div class="card text-center">
-          <img src="images/portfolio/langagesVeliko.png" class="card-img-top">
+          <img src="images/veliko/langagesVeliko.png" class="card-img-top">
           <div class="card-body">
             <h4 class="card-title">Langages</h4>
             <p class="text-light font-secondary" style="font-size: larger">PHP, Twig, HTML/CSS, JS, Java</p>
@@ -120,7 +126,7 @@
       </div>
       <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
         <div class="card text-center">
-          <img src="images/portfolio/frameworkVeliko.png" class="card-img-top">
+          <img src="images/veliko/frameworkVeliko.png" class="card-img-top">
           <div class="card-body">
             <h4 class="card-title">FrameWork</h4>
             <p class="text-light font-secondary" style="font-size: larger">Symfony</p>
@@ -129,7 +135,7 @@
       </div>
       <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
         <div class="card text-center">
-          <img src="images/portfolio/apiVeliko.png" class="card-img-top">
+          <img src="images/veliko/apiVeliko.png" class="card-img-top">
           <div class="card-body">
             <h4 class="card-title">API</h4>
             <p class="text-light font-secondary" style="font-size: larger">Velib', OpenStreetMap</p>
@@ -140,6 +146,106 @@
   </div>
 </section>
 <!-- /Outils utilisés -->
+
+<!-- Résultats -->
+<section class="section bg-cover" data-background="images/backgrounds/map.png">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">Résultats</h2>
+      </div>
+
+      <!-- Première carte d'image -->
+      <div class="col-md-6">
+        <div class="card text-center image-hover-effect">
+
+          <a href="images/veliko/v1Veliko.png" data-lightbox="version1" data-title="Version 1.0.0" style="display: none;"></a>
+
+          <!-- Image principale avec lien lightbox -->
+          <a href="images/veliko/accueilVeliko.png" data-lightbox="version1" data-title="Version 1.0.0">
+            <img src="images/veliko/accueilVeliko.png" class="card-img-top zoom-effect-image" alt="Version 1.0.0">
+          </a>
+
+          <!-- Images supplémentaires pour la lightbox (invisibles mais navigables) -->
+          <a href="images/veliko/mapVeliko.png" data-lightbox="version1" data-title="map" style="display: none;"></a>
+          <a href="images/veliko/infosMapVeliko.png" data-lightbox="version1" data-title="infos station map" style="display: none;"></a>
+
+          <div class="card-body">
+            <h3 class="card-title zoom-effect-title">Version 1.0.0</h3>
+          </div>
+        </div>
+      </div>
+
+      <!-- Deuxième carte d'image -->
+      <div class="col-md-6">
+        <div class="card text-center image-hover-effect">
+
+          <a href="images/veliko/v2Veliko.png" data-lightbox="version2" data-title="Version 2.0.0" style="display: none;"></a>
+
+          <a href="images/veliko/inscriptionVeliko.png" data-lightbox="version2" data-title="Inscription">
+            <img src="images/veliko/inscriptionVeliko.png" class="card-img-top zoom-effect-image" alt="Version 2.0.0">
+          </a>
+
+          <!-- Images supplémentaires pour la lightbox -->
+          <a href="images/veliko/connexionVeliko.png" data-lightbox="version2" data-title="Connexion" style="display: none;"></a>
+          <a href="images/veliko/mapConnecteVeliko.png" data-lightbox="version2" data-title="Ajout favori Map" style="display: none;"></a>
+          <a href="images/veliko/accueilProfilVeliko.png" data-lightbox="version2" data-title="Accueil Profil" style="display: none;"></a>
+          <a href="images/veliko/ajoutFavoriProfilVeliko.png" data-lightbox="version2" data-title="Ajout favori Profil" style="display: none;"></a>
+
+          <div class="card-body">
+            <h3 class="card-title zoom-effect-title">Version 2.0.0</h3>
+          </div>
+        </div>
+      </div>
+
+      <!-- Troisième carte d'image -->
+      <div class="col-md-6">
+        <div class="card text-center image-hover-effect">
+
+         <!-- <a href="images/veliko/v2Veliko.png" data-lightbox="version2" data-title="Version 2.0.0" style="display: none;"></a>-->
+
+          <a href="images/veliko/enCours.png" data-lightbox="version3" data-title="En cours">
+            <img src="images/veliko/enCours.png" class="card-img-top zoom-effect-image" alt="Version 3.0.0">
+          </a>
+
+          <!-- Images supplémentaires pour la lightbox -->
+          <!--<a href="images/veliko/connexionVeliko.png" data-lightbox="version2" data-title="Connexion" style="display: none;"></a>
+          <a href="images/veliko/mapConnecteVeliko.png" data-lightbox="version2" data-title="Ajout favori Map" style="display: none;"></a>
+          <a href="images/veliko/accueilProfilVeliko.png" data-lightbox="version2" data-title="Accueil Profil" style="display: none;"></a>
+          <a href="images/veliko/ajoutFavoriProfilVeliko.png" data-lightbox="version2" data-title="Ajout favori Profil" style="display: none;"></a>-->
+
+          <div class="card-body">
+            <h3 class="card-title zoom-effect-title">Version 3.0.0</h3>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quatrième carte d'image -->
+      <div class="col-md-6">
+        <div class="card text-center image-hover-effect">
+
+        <!--  <a href="images/veliko/v2Veliko.png" data-lightbox="version2" data-title="Version 2.0.0" style="display: none;"></a>-->
+
+          <a href="images/veliko/enCours.png" data-lightbox="version4" data-title="En cours">
+            <img src="images/veliko/enCours.png" class="card-img-top zoom-effect-image" alt="Version 4.0.0">
+          </a>
+
+          <!-- Images supplémentaires pour la lightbox -->
+          <!--<a href="images/veliko/connexionVeliko.png" data-lightbox="version2" data-title="Connexion" style="display: none;"></a>
+          <a href="images/veliko/mapConnecteVeliko.png" data-lightbox="version2" data-title="Ajout favori Map" style="display: none;"></a>
+          <a href="images/veliko/accueilProfilVeliko.png" data-lightbox="version2" data-title="Accueil Profil" style="display: none;"></a>
+          <a href="images/veliko/ajoutFavoriProfilVeliko.png" data-lightbox="version2" data-title="Ajout favori Profil" style="display: none;"></a>-->
+
+          <div class="card-body">
+            <h3 class="card-title zoom-effect-title">Version 4.0.0</h3>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- /Résultats -->
 
 
 
