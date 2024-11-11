@@ -943,7 +943,8 @@ blockquote {
 /* Container for the flip effect */
 .flip-card {
   perspective: 1000px;
-}
+  width: 200px;
+  height: 300px}
 
 .flip-card-inner {
   position: relative;
@@ -968,7 +969,7 @@ blockquote {
 
 .flip-card-back {
   transform: rotateY(180deg);
-  background-color: #f8f9fa; /* Change background color as desired */
+  /*background-color: #f8f9fa; !* Change background color as desired *!*/
   color: #333;
   padding: 20px;
 }
