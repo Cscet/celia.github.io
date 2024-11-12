@@ -25,6 +25,11 @@
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
   <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 
+  <!-- Lightbox CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+  <!-- Lightbox JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
+
 </head>
 
 <body>
@@ -213,6 +218,75 @@
   </div>
 </section>
 <!-- Outils utilisés -->
+
+<!-- Résultats -->
+<section class="section bg-cover" data-background="images/backgrounds/map.png">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">Résultats</h2>
+      </div>
+
+      <!-- Première carte d'image -->
+      <div class="col-md-6">
+        <div class="card text-center image-hover-effect">
+
+
+          <!-- Image principale avec lien lightbox -->
+          <a href="images/stages/ihmConsort.png" data-lightbox="IHM" data-title="Interface utilisateur">
+            <img src="images/stages/ihmConsort.png" class="card-img-top zoom-effect-image" alt="IHM">
+          </a>
+
+          <!-- Images supplémentaires pour la lightbox (invisibles mais navigables) -->
+          <a href="images/stages/ihm2Consort.png" data-lightbox="IHM" data-title="Interface après téléchargement" style="display: none;"></a>
+
+          <div class="card-body">
+            <h3 class="card-title zoom-effect-title">Interface utilisateur</h3>
+          </div>
+        </div>
+      </div>
+
+      <!-- Deuxième carte d'image -->
+      <div class="col-md-6">
+        <div class="card text-center image-hover-effect">
+
+          <a href="images/stages/script1Consort.png" data-lightbox="script1" data-title="Entré du script">
+            <img src="images/stages/script1Consort.png" class="card-img-top zoom-effect-image" alt="script1">
+          </a>
+
+          <!-- Images supplémentaires pour la lightbox -->
+          <a href="images/stages/resultatScript1Consort.png" data-lightbox="script1" data-title="resultat script 1" style="display: none;"></a>
+
+          <div class="card-body">
+            <h3 class="card-title zoom-effect-title">Webscraping : récupération d'informations de contact</h3>
+          </div>
+        </div>
+      </div>
+
+      <!-- Troisième carte d'image -->
+      <div class="col-md-6">
+        <div class="card text-center image-hover-effect">
+
+          <!-- <a href="images/veliko/v2Veliko.png" data-lightbox="version2" data-title="Version 2.0.0" style="display: none;"></a>-->
+
+          <a href="images/stages/script2Consort.png" data-lightbox="script2" data-title="Entré script 2">
+            <img src="images/stages/script2Consort.png" class="card-img-top zoom-effect-image" alt="script2">
+          </a>
+
+          <!-- Images supplémentaires pour la lightbox -->
+          <a href="images/stages/resultatScript2Consort.png" data-lightbox="script2" data-title="Resultat script 2" style="display: none;"></a>
+
+          <div class="card-body">
+            <h3 class="card-title zoom-effect-title">Webscraping : récupération d'URLs</h3>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</section>
+<!-- /Résultats -->
 
 <!-- Difficultés -->
 
