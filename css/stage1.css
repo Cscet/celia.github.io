@@ -127,3 +127,24 @@
     /*margin-right: 5px; !* Espacement entre la flèche et le texte *!*/
     transform: translateY(-2px); /* Remonte légèrement la flèche */
 }
+
+/* Effet d'agrandissement pour l'image */
+.zoom-effect-image {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Effet d'agrandissement pour le titre */
+.zoom-effect-title {
+    transition: transform 0.3s ease;
+}
+
+/* Agrandissement de l'image avec ombre uniquement sur l'image */
+.image-hover-effect:hover .zoom-effect-image {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* Ombre seulement sur l'image */
+}
+
+/* Agrandissement du titre sans ombre */
+.image-hover-effect:hover .zoom-effect-title {
+    transform: scale(1.05);
+}
