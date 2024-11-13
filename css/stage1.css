@@ -94,7 +94,6 @@
 }
 
 .bg {
-    background-image: url('images/backgrounds/education-bg.png'); /* Assurez-vous que le chemin est correct */
     background-size: cover; /* Adapte l'image à la taille de la section tout en gardant ses proportions */
     background-position: 50% 30%; /* Centre l'image verticalement et horizontalement */
     background-repeat: no-repeat; /* Empêche la répétition de l'image */
