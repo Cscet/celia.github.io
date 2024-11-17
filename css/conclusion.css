@@ -1,0 +1,17 @@
+.white-box {
+    height: 300px;
+    width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fdfdfd; /* Légèrement différent du blanc pur */
+    border: 1px solid #ddd; /* Ajout d'une bordure subtile */
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Ombre plus marquée */
+    transition: transform 0.2s, box-shadow 0.2s; /* Ajout d'un effet au survol */
+}
+
+/* Ajout d'un effet visuel au survol */
+.white-box:hover {
+    transform: scale(1.02); /* Légère mise en avant */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Ombre plus grande */
+}
